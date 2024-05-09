@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    background-color: hsla(0, 0%, 0%, 0.897);
+    text-align: center;
+    color: white;
+    font-family: "Asap", sans-serif;;
+    font-size: 30px;
+}
+input{
+    font-weight: bold;
+}
+div.button{
+    font-size: larger;
+}
+#button{
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 600;
+    border-radius: 8px;
+    padding: 14px 24px;
+    border: none;
+    transition: box-shadow 0.2s ease 0s, -ms-transform 0.1s ease 0s, -webkit-transform 0.1s ease 0s, transform 0.1s ease 0s;
+    background: linear-gradient(to right, rgb(230, 30, 77) 0%, rgb(227, 28, 95) 50%, rgb(215, 4, 102) 100%);
+    color: #fff;
+}
